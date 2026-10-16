@@ -15,8 +15,8 @@ wordTally is a feature-rich, high-performance Python Discord bot built with disc
 * Slash Commands: Complete integration with Discord's app_commands (CommandTree) interface.
 
 Add to your server here!
-https://discord.com/oauth2/authorize?client_id=1560355344428040404&permissions=2147552256&integration_type=0&scope=bot+applications.commands
-
+[https://discord.com/oauth2/authorize?client_id=1560355344428040404&permissions=2147552256&integration_type=0&scope=bot+applications.commands
+](https://discord.com/oauth2/authorize?client_id=1560355344428040404&permissions=277025459200&integration_type=0&scope=bot+applications.commands)
 ## Commands Summary
 
 | Command | Description |
