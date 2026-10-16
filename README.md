@@ -25,7 +25,7 @@ https://discord.com/oauth2/authorize?client_id=1560355344428040404&permissions=2
 | /edittally | Update existing tally parameters (words, count, or notification toggles). |
 | /deletetally | Remove a tally counter from the server. |
 | /tally | View current stats and configuration for a specific counter. |
-| /listtallies | Display all configured tally counters active in the server. |
+| /tallylist | Display all configured tally counters active in the server. |
 
 ## Syntax Guide
 
