@@ -12,3 +12,6 @@ __pycache__/
 
 # Ignore log files
 bot.log
+
+#ignore database file
+tallies.db
