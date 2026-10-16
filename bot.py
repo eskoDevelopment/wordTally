@@ -97,7 +97,6 @@ async def on_message(message):
     if message.author.bot:
         return
 
-    # Debug print: Verify message text is being captured in your terminal
     print(f"[{message.guild.name}] {message.author}: {message.content}")
 
     guild_id = message.guild.id
@@ -281,8 +280,8 @@ async def tally(interaction: discord.Interaction, name: str):
         f"Current Count: {count}"
     )
 
-@bot.tree.command(name="listtallies", description="List all tally counters in this server.")
-async def listtallies(interaction: discord.Interaction):
+@bot.tree.command(name="tallylist", description="List all tally counters in this server.")
+async def tallylist(interaction: discord.Interaction):
     guild_id = interaction.guild.id
 
     conn = sqlite3.connect("tallies.db")
