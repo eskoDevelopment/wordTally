@@ -97,8 +97,6 @@ async def on_message(message):
     if message.author.bot:
         return
 
-    print(f"[{message.guild.name}] {message.author}: {message.content}")
-
     guild_id = message.guild.id
     content_lower = message.content.lower()
 
